@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.2.47",
+    "vue-property-decorator": "^9.1.2",
     "vuetify": "^3.3.2"
   },
   "devDependencies": {
