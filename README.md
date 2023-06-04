@@ -1,18 +1,63 @@
-# Vue 3 + TypeScript + Vite
+# My Vite + Vue.js  Starter Project
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This repository contains a simple starter project designed to facilitate my learning journey with Vue.js. Serving as a playground, it doesn't aim for a specific goal or application, but rather offers a space to explore, experiment, and grow my skills in Vue.js.
+## What's included?
+### Current
+💚 Vue.js -  a powerful and flexible JavaScript framework for building user-friendly and reactive single-page applications.
 
-## Recommended IDE Setup
+⚡️vite - a fast and lightweight front-end build tool, utilizing native ES Modules (ESM) for rapid, on-demand serving and efficient hot module replacement during development.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+🔗 TypeScript - a statically typed superset of JavaScript that compiles to plain JavaScript and enhances code safety and maintainability.
 
-## Type Support For `.vue` Imports in TS
+### Soon
+☑️ ESLint - A linter for JavaScript which means it can detects for example code smells.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+🎨 Prettier - An opinionated code formatter.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Prerequisites
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Before you begin, ensure you have met the following requirements:
+
+- Node.js (v14.0 or higher)
+- Yarn (v1.22 or higher)
+
+
+
+## Project Installation
+
+1. Clone the repository into your local system:
+    ```
+    git clone https://github.com/YourUsername/my-vue-vite-project.git
+    ```
+
+2. Navigate into the project directory:
+    ```
+    cd my-vue-app
+    ```
+
+3. Install the project dependencies:
+    ```
+    yarn
+    ```
+
+## Using the Project
+
+After installing the dependencies, you can use the project in two ways:
+
+1. **Development Mode**
+
+    To start the project in development mode, execute the following command:
+    ```
+    yarn dev
+    ```
+    The project should now be running at ` http://localhost:5173` and changes to files will automatically update in the browser.
+
+2. **Production Mode**
+
+    To build the project for production, execute the following command:
+    ```
+    yarn build
+    ```
+    This command will create an optimized version of your application in the `/dist` folder.
+
+
