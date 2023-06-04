@@ -25,17 +25,12 @@ Before you begin, ensure you have met the following requirements:
 
 ## Project Installation
 
-1. Clone the repository into your local system:
-    ```
-    git clone https://github.com/YourUsername/my-vue-vite-project.git
-    ```
-
-2. Navigate into the project directory:
+1. Navigate into the project directory:
     ```
     cd my-vue-app
     ```
 
-3. Install the project dependencies:
+2. Install the project dependencies:
     ```
     yarn
     ```
