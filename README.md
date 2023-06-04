@@ -1,4 +1,4 @@
-# My Vite + Vue.js  Starter Project
+# My Vue.js Starter Project
 
 This repository contains a simple starter project designed to facilitate my learning journey with Vue.js. Serving as a playground, it doesn't aim for a specific goal or application, but rather offers a space to explore, experiment, and grow my skills in Vue.js.
 ## What's included?
